@@ -40,13 +40,3 @@ Press `q` to quit the video playback window.
 3. **Line Detection**: The Hough Transform is applied to detect lines within the defined region of interest.
 4. **Line Averaging and Extrapolation**: Detected lines are separated into left and right lanes based on their slope. Lines are then averaged and extrapolated to cover the full lane marking.
 5. **Overlay**: The averaged lines are drawn onto the original frame, visually indicating the position of lane lines.
-
-## Contributing
-Contributions to improve the lane detection system are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
-
-## License
-This project is open source and available under the [MIT License](LICENSE.md).
-
----
-
-Remember to include any additional instructions or information specific to your project that users might need to know.
